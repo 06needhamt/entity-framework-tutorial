@@ -7,7 +7,7 @@ using System.Data.Entity;
 
 namespace Tutorial
 {
-    class BloggingContext
+    class BloggingContext : DbContext
     {
         public DbSet Blogs { get; set; }
         public DbSet Posts { get; set; }
